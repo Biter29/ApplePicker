@@ -10,14 +10,7 @@ public class Apple : MonoBehaviour {
 	void Start () {
 		
 	}
-    public void AppleDestoryed()
-    {
-        GameObject[] tAppleArray = GameObject.FindGameObjectsWithTag("Apple");
-        foreach(GameObject tGO in tAppleArray)
-        {
-            Destroy(tGO);
-        }
-    }
+ 
 	
 	// Update is called once per frame
 	void Update () {

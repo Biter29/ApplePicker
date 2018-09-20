@@ -178,6 +178,10 @@ Prefab:
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1133396980390656, guid: 05d65e0d5ac370042a570118dc600df9, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05d65e0d5ac370042a570118dc600df9, type: 2}
   m_IsPrefabAsset: 0
@@ -191,6 +195,7 @@ GameObject:
   - component: {fileID: 887058141}
   - component: {fileID: 887058140}
   - component: {fileID: 887058139}
+  - component: {fileID: 887058142}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -258,6 +263,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &887058142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 887058138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1542a3dd2970e5f4ea66049d3cc4e4d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basketPrefab: {fileID: 1740236477235396, guid: cedfe108ede4418498b770fef6e395a5,
+    type: 2}
+  numBaskets: 3
+  basketBottomY: -14
+  basketSpacingY: 2
 --- !u!1 &1619903728
 GameObject:
   m_ObjectHideFlags: 0
